@@ -1,4 +1,4 @@
-change extentions for a bunch of files >>>>>
+change extentions 4 a bunch of files >>>>>
 [root@localhost ~]# touch file.jpeg
 [root@localhost ~]# for file in *.jpeg;do mv "$file" "${file%.jpeg}.jpg"; done
 --------------------------------------------------------------------------------
